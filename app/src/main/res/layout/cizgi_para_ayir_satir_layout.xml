@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/mesaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/Textview_Para"
+        android:layout_weight="0.76"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:text="checkBoxedjhdsjhdsjhdjhdsjsdjhdsjhdshj"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_toLeftOf="@+id/Textview_Para"
+        android:textColor="#40404040"/>
+
+    <TextView
+        android:id="@+id/Textview_Para"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="17dp"
+        android:layout_alignParentTop="true"
+        android:textColor="#40404040"
+        android:layout_alignBottom="@+id/mesaj" />
+
+</RelativeLayout>

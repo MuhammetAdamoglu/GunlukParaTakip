@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="24dp">
+
+
+    <EditText
+        android:id="@+id/para_duzenle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/parolagir"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:focusableInTouchMode="true"
+        android:focusable="true"/>
+
+
+    <EditText
+        android:id="@+id/parola_yeni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/yeniparola"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/parola_yeni_tekrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/parolatekrar"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:visibility="gone" />
+
+</LinearLayout>

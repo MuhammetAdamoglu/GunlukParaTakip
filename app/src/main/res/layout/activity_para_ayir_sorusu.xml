@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bycod.gunlukparahesapla.Para_ayir_sorusu"
+    android:background="#1b8aa2">
+
+    <TextView
+        android:id="@+id/para_ayir_sorusu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:shadowColor="#606060"
+        android:shadowDx="10"
+        android:shadowDy="4"
+        android:shadowRadius="10"
+        android:text="@string/paraayirmasorusu"
+        android:textColor="#404040"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <Button
+        android:id="@+id/hayir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:text="@string/hayir"
+        app:layout_constraintBottom_toBottomOf="@+id/evet"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/evet"
+        app:layout_constraintTop_toTopOf="@+id/evet"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/evet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:text="@string/evet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/hayir"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/para_ayir_sorusu"
+        app:layout_constraintVertical_bias="0.148" />
+</android.support.constraint.ConstraintLayout>

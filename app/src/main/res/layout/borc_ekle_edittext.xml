@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/borc_mesaji"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:maxLength="50"
+        android:hint="@string/neicinparaayiracaksiniz"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:layout_weight="0.83" />
+
+    <EditText
+        android:id="@+id/borc_para"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="6"
+        android:textSize="20dp"
+        android:hint="@string/kacparaayiracaksiniz"
+        android:textStyle="bold"
+        android:gravity="center"/>
+</LinearLayout>
